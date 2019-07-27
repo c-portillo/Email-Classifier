@@ -180,7 +180,7 @@ def naive_bayes(all_data, printer):
         print('Predictions: ' + str(predictions))
         print('True labels: ' + str(correct_labels))
 
-    print('Accuracy: ' + str(correct_percent) + '%')
+    print('- Accuracy: ' + str(correct_percent) + '%')
 
     return correct
 
@@ -202,7 +202,7 @@ parse_emails(ham_files, 'ham/')
 parse_emails(spam_files, 'spam/')
 
 
-I = 200  # number of iterations
+I = 20  # number of iterations
 print_predictions = False
 accuracy_sum = 0
 
