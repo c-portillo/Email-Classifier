@@ -222,4 +222,4 @@ for i in range(I):
 average_accuracy = accuracy_sum/I
 average_accuracy_percentage = round((average_accuracy * 100), 2)
 
-print("\nAverage Accuracy Over " + str(I) + " Iterations: " + str(average_accuracy_percentage) + "%")
+print("\nAverage accuracy over " + str(I) + " Iterations: " + str(average_accuracy_percentage) + "%")
