@@ -111,7 +111,7 @@ def naive_bayes(all_data, printer):
     train_ham = []
     means = []
 
-    # find the mean value for each attribute (AKA for each dimension)
+    # find the mean value for each attribute
     for d in range(dimension):
         below_mean_spam.append(0)
         below_mean_ham.append(0)
